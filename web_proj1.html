@@ -1,0 +1,234 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>VEER FIRST</title>
+<link rel="icon" href="./logo.jpeg" type="image/x-icon"/>
+<style>
+    html{
+        background-color: rgb(82, 82, 220);
+        height:100%;
+        font-weight: 300;
+        font-style: oblique;
+        font-size: larger;
+        text-align: justify;
+    }
+    header {
+            background-color: rgb(56, 56, 222);
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        .navigation {
+            display: flex;
+            justify-content: center;
+            margin-top: 1em;
+        }
+
+        .navigation a {
+            font-size: 1.2em;
+            color: #38b6c9;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .navigation a:hover {
+            color: white;
+        }
+    .Second{
+        width:700px;
+        height: auto;
+        margin-left: 20px;
+        padding: 10px;
+        margin: 3px;
+        border: solid black;
+    }
+    main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            position: relative;
+            align-items: center;
+        }
+    img{
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        margin: 3px;
+        padding: 3px;
+        margin-top: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    footer{
+        clear:both;
+    }
+    .movie {
+        border: 1px solid #ccc;
+        border-radius: 5%;
+        padding: 10px;
+        justify-content: center;
+
+    }
+
+   
+    .First{
+       display: flex;
+       flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .Second {
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    button{
+        border: none;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 5%;
+    }
+    footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    .social{
+        border-radius: 15px;
+        justify-content: space-evenly;
+        gap:30px;
+
+    }
+    .social1{
+        width: 50px;
+        height: 50px;
+        transition: width 1s, height 2s;
+    }
+
+    .social1:hover {
+        width: 75px;
+        height: 75px;
+    }
+
+
+</style>
+</head>
+
+<body>
+<header>
+    <h1>Veer's Portfolio</h1>
+    <p>CSE Sophomore | Aspiring Full Stack Developer</p>
+    <nav class="navigation">
+        <a href="#abt">About</a>
+        <a href="#ed">Skills</a>
+        <a href="#prj">Projects</a>
+        <a href="#cn">Contact</a>
+    </nav>
+</header>
+<hr/>
+<br>
+<main>
+<div class="First1">
+<img src="./21.jpg" height="441"  alt="Me sitting on a rock" style="margin-right: 30px; border-radius: 5%;"/>
+<div class="Second" id="abt">
+<h3> I am Veer Viswajit.N, it's my amateur attempt for web dev... To tell About myself,</h3>
+<ul>
+<div class="list1">
+<li>I am good at studying a bit and also mastered the skill of procrastination, but i don't miss out the deadlines</li>
+<li>I am big time movie buff, Can't say that i watch all films but i don't leave out the cult classics</li>
+<li>I love watching series</li>
+<li>I love coding and currently learing to be a full stack developer</li>
+<li>I happen to be a fun person as regarded by my friends and family</li>
+<li>I consider myself to be having a personality of an <a href="https://dictionary.cambridge.org/dictionary/english/ambivert">Ambivert</a> </li>
+
+</div>
+</div>
+</ul>
+</div>
+<section id="ed" class="Second">
+    <h2>Skills</h2>
+    <ul>
+        <li><span class="code-icon">
+                <i class="fas fa-code"></i>
+            </span>
+            Programming Languages:
+            <ul>
+                <li><strong>Competitive programming and
+                    Object Oriented programming:
+                    Python, Java, C++, C</strong></li>
+                <li><strong>Scripting Language: Python,
+                    JavaScript</strong></li>
+                <li><strong>Machine Learning in Python</strong></li>
+                <li><strong> Front-end Programming: HTML,
+                    CSS, Bootstrap</strong></li>
+                <li><strong>Database: MySQL, Firebase</strong></li>
+                <li><strong>Language: R, Arm, Bash</strong></li>
+            </ul>
+        </li>
+        
+    </ul>
+</section>
+<section class="Second">
+    <h2 id="prj">Projects</h2>
+    <ul>
+<li>
+    
+        Web Development Portfolio
+    </a>
+    <p> Developed dynamic and responsive web pages for diverse
+        projects and hackathons, including a personal portfolio
+        website</p>
+</li>
+
+
+<li>
+   
+
+    Python multitasking app: Synergia 
+    
+    <p>Created a Python multitasking app seamlessly blends
+        Spotify, a to-do planner, shell GUI and Google Calendar(use
+        of APIs), offering efficiency with real-time updates, cross
+       platform compatibility, and room for enhanced features.</p>
+</li>
+<li>
+  
+        Python based Student Record Manager
+   
+    <p> Implemented a Python and MySQL integrated project
+        focused on maintaining student records, incorporating
+        Firebase for secure authentication to access the database</p>
+</li>
+
+
+</ul>
+</section>
+<div class="social" id="cn">
+    <h4>My Social Media Handles:</h4>
+    <ul style="list-style: none;">
+    <li> <a href="https://www.instagram.com/veerviswajit/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><img src="./insta.png" alt="Instagram logo" class="social1" height="50"/></a></li>
+    <li> <a href="https://www.linkedin.com/in/veer-viswajit-366887275"><img src="./linkedin.png" alt="linkedin logo" height="50" class="social1" style="margin-left: 18px;"/></a></li>
+<br>
+</ul>
+</div>
+</main>
+<footer>
+    &copy; 2024 - Veer Viswajit N
+</footer>
+</body>
+
+</html>
